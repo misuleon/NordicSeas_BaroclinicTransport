@@ -43,7 +43,7 @@ function [yrs, Trnsprt, Trns_uncert] = compute_baroclinic_transport_NS_RT()
     PE_NS = sum_Z(dpth, dyn_NS_ref);
     PE_RT = sum_Z(dpth, dyn_RT_ref);
 
-    % Remove Rockall 1949 outliers
+    % Remove Rockall outliers
     yrRT([17,18]) = [];
     PE_RT([17,18]) = [];
 
@@ -62,7 +62,7 @@ function [yrs, Trnsprt, Trns_uncert] = compute_baroclinic_transport_NS_RT()
         N_RT(i)       = sum(j);
     end
 
-    % Align 1936 NS to RT
+    % Align NS to RT
     mean_PE_NS(39) = mean_PE_NS(37);
     std_PE_NS(39)  = std_PE_NS(37);
 
@@ -77,7 +77,7 @@ function [yrs, Trnsprt, Trns_uncert] = compute_baroclinic_transport_NS_RT()
     Trns_uncert = Trns_uncert * 10 / eff / 1e6;
     yrs = yrSt:yrEn;
 
-    %% Optional: plot
+    %% Plot
     figure
     errorbar(yrs, Trnsprt, Trns_uncert, '-r', 'markersize', 6)
     grid on
