@@ -24,7 +24,8 @@ Chafik, L. (2025), *Baroclinic transport into the Nordic Seas from historical hy
 
 and cite the associated papers:
 
-Chafik et al. (2025), 
+Chafik et al. (2025): <TBA>
+
 Rossby et al. (2020):  https://doi.org/10.1029/2020GL087456
 
 ## License
