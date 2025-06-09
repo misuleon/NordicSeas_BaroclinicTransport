@@ -20,7 +20,7 @@ This repository contains MATLAB scripts to compute the annual baroclinic transpo
 
 If you use this code, please cite:
 
-Chafik, L. (2025), *Baroclinic transport into the Nordic Seas from historical hydrography (1900–2023)*, GitHub v1.0.0, https://github.com/misuleon/NordicSeas_BaroclinicTransport
+Chafik, L. (2025), *Baroclinic transport into the Nordic Seas from historical hydrography (1900–2022)*, GitHub v1.0.0, https://github.com/misuleon/NordicSeas_BaroclinicTransport
 
 and cite the associated papers:
 
