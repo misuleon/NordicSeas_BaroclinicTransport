@@ -24,7 +24,7 @@ Chafik, L., and Rossby, T. (2025), *Baroclinic transport into the Nordic Seas fr
 
 and cite the associated papers:
 
-Chafik et al. (2025): **TBA**
+Chafik et al. (2025): https://doi.org/10.1038/s43247-025-02557-x
 
 Rossby et al. (2020):  https://doi.org/10.1029/2020GL087456
 
